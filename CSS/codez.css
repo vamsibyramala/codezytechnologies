@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.img1 {
+    height: 80px;
+    width: 70px;
+    margin: 10%;
+}
+.nav-text{
+    font-size: medium;
+    color: black;
+}
+
+.courosel-img {
+    height: 95vh;
+    width: 100%;
+    object-fit:contain;
+    
+}
+
+.nav-img1 {
+    height: 90px;
+    width: 150px;
+    margin: 25px;
+}
+.mar{
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+ .about{
+    text-align: center;
+    color: rgb(223, 171, 236);
+    font-size: 60px;
+ }
+ .carrer{
+    font-size:40px ;
+    color: rgb(157, 213, 222);
+    text-align: center;
+ }
+.our{
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+}
+.success
+{
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+.btu-ra{
+    background-color: rgb(168, 214, 185);
+    font-size: 20px;
+    border-radius: 18px;
+    border-style: inherit;
+    padding: 20px;
+}
+.unorderlist{
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+}
+.doticonsStyle{
+    width:100%;
+    height:10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(152, 152, 222);
+    font-size: 25px;
+    padding: 8px;
+    
+}
+.dataoflist{
+    color: cornflowerblue;
+    font-size: 25px;
+    padding: 5px;
+}
+.image{
+    background-color:white ;
+}
+.para-style{
+    text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+  
+}
+.para{
+    color: #5a7184;
+}
+.offers{
+    color: #323f4b;
+  font-style: italic;
+  font-weight: 600;
+}
+span{
+    height: 40px;
+    width: 60px;
+}
+.icon-image{
+    height: 100px;
+    width: 150px;
+    border-radius: 15px;
+    border-color: rgb(37, 186, 136);
+    border: 2px solid;
+}
+
+.tite{
+    color: blue;}
+.top-head{
+    color: rgb(162, 76, 115);
+}
+.about1{
+    text-align: center;
+    color: rgb(223, 171, 236);
+    font-size: 40px;
+padding: 10px;}
+.container1{
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 2rem;
+}
+.score{
+    background-color: #0c3870;
+}
+.score-p{
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.contact-code{
+background-color: #e5eaf4;
+text-align: center;
+color: #0c3870;
+
+}
+i{
+font-size: 25px;
+}
+
+.project-details{
+    height: 70px;
+    width: 80px;
+    margin: 10px;
+}
+.mar{
+   margin-left: 10%;
+   margin-right: 10%;
+}
+span{
+    color: #5a7184;
+    font-size: larger;
+}
+.footer-back{
+    background-color:white;
+}
+.fotterlogo{
+height: 120px;
+width: 100px;
+}
+.footercolor{
+    background-image: linear-gradient(rgb(209, 147, 206), rgb(159, 99, 194));
+}

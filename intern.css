@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,400&display=swap');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/arrow-align-h.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/airplane.css');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+
+
+/* banner */
+
+.banner{
+    display: grid;
+    height: 70vh;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    background-color: #eeeeffc4;
+    width: 100%;
+    position: relative;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+
+
+.banner-title{
+    font-size: 50px;
+}
+.banner-desc{
+    font-size: 20px;
+    align-self: last baseline;
+    color: #6b7385;
+}
+.banner-desc2{
+    color: #6b7385;
+    padding-inline: 100px;
+    font-size: 25px;
+    width:auto ;
+}
+.banner-action{
+    width: fit-content;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.801);
+    background:linear-gradient(to right , rgb(160, 160, 255) , rgb(255, 163, 255));
+}
+.banner-action:hover{
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    transform: scale(1.09);
+}
+.right
+{
+    place-self: center;
+    position: relative;
+}
+.svgs{
+    position: absolute;
+    left: 0;
+    top: 0;   
+    z-index: -1;
+}
+
+/* courses */
+.courses{
+    display: grid;
+    background-color: #eeeeffc4;
+    gap: 50px;
+    padding: 100px;
+}
+.inner-courses{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    gap: 50px;
+}
+.course{
+    display: grid;
+    place-items:center ;
+    place-self: center  ;
+    border-radius: 15px;
+    gap: 10px;
+    background-color: #fff;
+    width: auto;
+    padding: 30px;
+    height: fit-content;
+    color: #6b7385;
+    width: fit-content;
+    transition: all 0.5s ease;
+}
+.course:hover{
+    box-shadow: 0 0 10px rgb(199, 199, 199);
+    scale: 1.01;
+}
+.title
+{
+    color: #192335;
+    font-weight: larger;
+}
+.arrow{
+    animation: arrow 1s ease infinite;
+}
+.card-bottom{
+    padding: 4px;
+    border-radius: 5px;
+}
+@keyframes arrow {
+    0%{
+        transform: translateX(-10px);
+    }
+    50%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+}
+
+/* trainers */
+
+.trainers{
+    background-color: #eeeeffc4;
+    padding: 50px;
+}
+
+.card-title{
+   text-align: center;
+   font-size: 50px;
+}
+.trainer-cards{
+    display: grid;
+    place-items:center;
+    place-self: center;
+    gap: 50px;
+    width: auto;
+    padding: 30px;
+    height: fit-content;
+    color: #192335;
+    grid-template-columns: repeat(auto-fit, minmax(350px , 1fr));
+   
+}
+.trainer-card{
+    padding: 50px;
+    /* border: 3px solid black; */
+    background-color: #fff;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+}
+.trainer-card:hover{
+    box-shadow: 0px 8px 17px rgba(0,0,0,.25);
+    scale: 1.09;
+    transition: all .5s ease;
+}
+.name{
+    border-radius: 50%;
+}
+.user{
+    font-size: 100px;
+}
+
+.magicpattern { 
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg height=%22auto%22 viewBox=%220 0 2000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath d=%22M0 624.72c66.6 19.19 199.8 115.975 333 95.95 133.2-20.025 199.8-90.716 333-196.073 133.2-105.357 199.8-307.79 333-330.713 133.2-22.923 199.8 194.135 333 216.099 133.2 21.965 199.8-49.358 333-106.276 133.2-56.919 266.4-142.654 333-178.317l2 874.61H0Z%22 fill=%22%23444cf71a%22%2F%3E%3Cpath d=%22M0 624.72c66.6 19.19 199.8 115.975 333 95.95 133.2-20.025 199.8-90.716 333-196.073 133.2-105.357 199.8-307.79 333-330.713 133.2-22.923 199.8 194.135 333 216.099 133.2 21.965 199.8-49.358 333-106.276 133.2-56.919 266.4-142.654 333-178.317%22 fill=%22none%22 stroke=%22%23444cf7%22 stroke-width=%223%22%2F%3E%3Cg fill=%22%23444cf7%22%3E%3Ccircle cy=%22624.721%22 r=%226%22%2F%3E%3Ccircle cx=%22333%22 cy=%22720.67%22 r=%226%22%2F%3E%3Ccircle cx=%22666%22 cy=%22524.597%22 r=%226%22%2F%3E%3Ccircle cx=%22999%22 cy=%22193.884%22 r=%226%22%2F%3E%3Ccircle cx=%221332%22 cy=%22409.983%22 r=%226%22%2F%3E%3Ccircle cx=%221665%22 cy=%22303.707%22 r=%226%22%2F%3E%3Ccircle cx=%221998%22 cy=%22125.39%22 r=%226%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  }
