@@ -90,6 +90,8 @@
   border-radius: 16px;
   
 }
+
+
 .para{
     color: #5a7184;
 }
@@ -168,4 +170,16 @@ width: 100px;
 }
 .footercolor{
     background-image: linear-gradient(rgb(209, 147, 206), rgb(159, 99, 194));
+    margin-left:3%;
+    margin-right:3% ;
+}
+.gra{
+    background-image: linear-gradient(rgb(209, 147, 206), rgb(159, 99, 194));
+    font-size: 30px;
+    margin: 1%;
+    font-style: oblique;
+    text-align: center;
+}
+.tex{
+    color: rgb(138, 24, 24);
 }
